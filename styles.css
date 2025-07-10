@@ -1,0 +1,76 @@
+.main{
+            width: 92%;
+            height: 3000px;
+            border: 1px solid black;
+            position: absolute;
+            right: 0;
+            display: grid;
+            grid-template-rows: 4fr 2fr 3fr 5fr 3%;
+        }
+            #Home, #Weather, #Calendar, #About, #Conclude{
+                border: 1px solid black;
+                height: 99.9%;
+                width: 99.9%;
+            }
+            #Home{
+                background-color: red;
+                height: 99.9%;
+                width: 99.9%;
+            }
+                #headertext{
+                    width: 500px;
+                    text-align: center;
+                    border: 1px solid gray;
+                    position: relative;
+                    top: 30%;
+                    left: 30%;
+                }
+                #headerReminder{
+                    width: 500px;
+                    text-align: center;
+                    border: 1px solid gray;
+                    position: relative;
+                    top: 60%;
+                    left: 30%;
+                    z-index: 10000;
+                }
+            #Weather{
+                background-color: darkgrey;
+                text-align: center;
+            }
+            #About{
+                background-color: red;
+            }
+            #Conclude{
+                background-color: black;
+                text-align: center;
+                color: white;
+            }
+        #side_sect{
+            background-color: darkred;
+            width: 7%;
+            height: 620px;
+            border: 1px solid green;
+            position: fixed;
+            overflow: visible;
+            padding-top: 20px;
+        }
+            #icon{
+                border: 1px dashed brown;
+                width: 70%;
+                height: 40%;
+                position: relative;
+                left: 14%;
+                display: grid;
+                grid-template-rows: 1fr 1fr 1fr;
+            }
+                .homeicon{
+                    background-color: darkred;
+                    height: 100%;
+                    border: 1px solid black;
+                    transition: ease-in-out;
+                    transition-duration: 100ms;
+                }
+                    .homeicon:hover{
+                        background-color: white;
+                    }
