@@ -1,3 +1,6 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
 .main{
             width: 92%;
             height: 3000px;
@@ -13,7 +16,8 @@
                 width: 99.9%;
             }
             #Home{
-                background-color: red;
+                background-image: url("images/homebg.jpg");
+                background-repeat: no-repeat;
                 height: 99.9%;
                 width: 99.9%;
             }
@@ -35,11 +39,14 @@
                     z-index: 10000;
                 }
             #Weather{
-                background-color: darkgrey;
+                background-color: black;
                 text-align: center;
             }
             #About{
-                background-color: red;
+                background-image: url("images/aboutbg.jpg");
+                background-size: 150%;
+                background-position: center;
+                background-color: lightblue;
             }
             #Conclude{
                 background-color: black;
@@ -47,7 +54,7 @@
                 color: white;
             }
         #side_sect{
-            background-color: darkred;
+            background-color: darkblue;
             width: 7%;
             height: 620px;
             border: 1px solid green;
@@ -65,7 +72,7 @@
                 grid-template-rows: 1fr 1fr 1fr;
             }
                 .homeicon{
-                    background-color: darkred;
+                    background-color: darkblue;
                     height: 100%;
                     border: 1px solid black;
                     transition: ease-in-out;
